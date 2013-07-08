@@ -1,0 +1,15 @@
+/* Font size calculations */
+
+$rootFontSize: 16;
+
+//Function for converting a px based font-size to rem.
+@function calculateRem($size) {
+  $remSize: $size / $rootFontSize; //Font size you set on html element
+  @return #{$remSize}rem;
+}
+
+//Mixin that will include the fall back px decleration as well as the calculated RemSize
+@mixin fontSize($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}

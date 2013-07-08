@@ -1,0 +1,125 @@
+/* Import Libs */
+/* Font size calculations */
+/* Colors */
+/* Typography Colors */
+/* line 30, ../config.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: OpenSans, sans-serif;
+}
+
+/* Typography */
+/* line 39, ../config.scss */
+h1 {
+  font-size: 30px;
+  font-size: 1.875pxrem;
+  line-height: 1.4;
+  margin: 23px 0;
+  text-align: center;
+}
+
+/* line 46, ../config.scss */
+h2 {
+  font-size: 28px;
+  font-size: 1.75pxrem;
+  line-height: 1.4;
+  margin: 20px 0;
+}
+
+/* line 51, ../config.scss */
+h3 {
+  font-size: 24px;
+  font-size: 1.5pxrem;
+  line-height: 1.4;
+  margin: 17px 0;
+}
+
+/* line 56, ../config.scss */
+h4 {
+  font-size: 20px;
+  font-size: 1.25pxrem;
+  line-height: 1.5;
+  margin: 13px 0;
+}
+
+/* line 61, ../config.scss */
+h5 {
+  font-size: 16px;
+  font-size: 1pxrem;
+  line-height: 1.5;
+  margin: 11px 0;
+}
+
+/* line 66, ../config.scss */
+h6 {
+  font-size: 14px;
+  font-size: 0.875pxrem;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+/* line 75, ../config.scss */
+body h1:first-child {
+  background-color: #cccccc;
+  margin-top: 0;
+}
+
+/* line 81, ../config.scss */
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+/* line 86, ../config.scss */
+.container > h6 {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* line 91, ../config.scss */
+.component {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* line 97, ../config.scss */
+.component .demo {
+  background-color: #e9e9e9;
+  width: inherit;
+  height: 200px;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* line 104, ../config.scss */
+.component .code {
+  background-color: #999999;
+  width: inherit;
+  height: 100px;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* line 112, ../config.scss */
+.html-snip {
+  width: 90%;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
